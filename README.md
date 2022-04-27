@@ -7,7 +7,7 @@ Hier wird erklärt, wie Sie eine Figur auf Winforms mit Tasten bewegen können o
 
 __Was ist Windows Forms?__
 
-`Windows Forms` ist neben der 'normalen' Konsole ein Programm in Visual Studio, der dem Benutzer ermöglicht, in verschiedenen Feldern Features einzufügen. Mit `Windows Forms` kann man mit den Feautures wie in der Konsole den Benutzer für eine Eingabe auffordern, jedoch kann man mit den Labels und anderen Sachen die Gestaltung schöner und übersichtlicher als auf der Konsole gestalten. Es ermöglicht auch die Erstellung grafischer Benutzeroberflächen für Windows. In unserer Gruppenarbeit haben wir uns für `WinForms` entschieden, da unser Spiel Space Invaders mit diesem Programm einfach zu programmieren ist.
+`Windows Forms` ist neben der 'normalen' Konsole ein Programm in Visual Studio, das dem Benutzer ermöglicht, in verschiedenen Feldern Features einzufügen. Mit `Windows Forms` kann man mit den Feautures wie in der Konsole den Benutzer für eine Eingabe auffordern, jedoch kann man mit den Labels und anderen Sachen die Gestaltung schöner und übersichtlicher als auf der Konsole gestalten. Es ermöglicht auch die Erstellung grafischer Benutzeroberflächen für Windows. In unserer Gruppenarbeit haben wir uns für `WinForms` entschieden, da unser Spiel Space Invaders mit diesem Programm einfach zu programmieren ist.
 
 __Was ist Space Invaders?__
 
