@@ -23,7 +23,7 @@ ur gae :D
 
 ## Code
 
-```winforms
+```csharp
   //Move Invaders Left or Right
                 for (int i = 1; i <= numinvaders; i++)
                 {
