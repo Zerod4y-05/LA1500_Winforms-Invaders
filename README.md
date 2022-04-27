@@ -5,8 +5,8 @@
 ## Einleitung
 
 ## Ziele
-1. KeyPress Event
-2. Bewegung der Gegner
+1. Dem Leser erklären, wie ein KeyPress Event in WinForms ausgeführt wird.
+2. Dem Leser erklären, wie man die Bewegung der Gegner in WinForms codiert und ausführt. 
 
 ## Erklärung
 
