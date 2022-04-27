@@ -5,9 +5,13 @@
 ## Einleitung
 Hier wird erklärt, wie Sie eine Figur auf Winforms mit Tasten bewegen können oder eine grössere Gruppe automatisch.
 
+## Unsere Ziele
+1. Dem Leser erklären, wie ein KeyPress Event in WinForms ausgeführt wird.
+2. Dem Leser erklären, wie man die Bewegung der Gegner in WinForms codiert und ausführt. 
+
 __Was ist Windows Forms?__
 
-`Windows Forms` ist neben der 'normalen' Konsole ein Programm in Visual Studio, das dem Benutzer ermöglicht, in verschiedenen Feldern Features einzufügen. Mit `Windows Forms` kann man mit den Feautures wie in der Konsole den Benutzer zu einer Eingabe auffordern, jedoch kann man mit den Labels und anderen Sachen die Gestaltung schöner und übersichtlicher als auf der Konsole gestalten. Es ermöglicht auch die Erstellung grafischer Benutzeroberflächen für Windows. In unserer Gruppenarbeit haben wir uns für `WinForms` entschieden, da unser Spiel Space Invaders mit diesem Programm einfach zu programmieren ist.
+`Windows Forms` ist neben der 'normalen' Konsole ein Programm in Visual Studio, das dem Benutzer ermöglicht, in verschiedenen Feldern Features einzufügen. Mit `Windows Forms` kann man mit den Feautures wie in der Konsole den Benutzer zu einer Eingabe auffordern, jedoch kann man mit den Labels und anderen Sachen die Gestaltung schöner und übersichtlicher als auf dn, da unser Spiel Space Invaders mit diesem Programm einfach zu programmieren ist.
 
 __Was ist Space Invaders?__
 
@@ -16,10 +20,6 @@ Space Invaders ist ein japanisches Videospiel, in dem man mit einem Raumschiff A
 ## Unsere Ziele
 1. Dem Leser erklären, wie ein KeyPress Event in WinForms ausgeführt wird.
 2. Dem Leser erklären, wie man die Bewegung der Gegner in WinForms codiert und ausführt. 
-
-## Erklärung
-
-In unserem Game wollen wir etwas nach dem Vorbild von Space Invaders programmieren. Wir hätten uns gedacht, dass wir ein Upgrade System machen. Zum Beispiel kann man sich mit Münzen rechts und links Towers kaufen. Die Coins erhält man, wenn man die Gegner abschiesst. Je besser das Upgrade, je mehr Münzen kosten sie. Auch wollen wir verschiedene Modis einfügen, wie beim Game Pineapple-Apple-Pen. Man kann die Gegner an einem Punkt lassen, gerade auf einen zukommen lassen, oder im Zickzack fliegen lassen.
 
 ## Code
 
