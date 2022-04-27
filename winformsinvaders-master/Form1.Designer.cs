@@ -429,7 +429,6 @@
         private System.Windows.Forms.PictureBox inv13;
         private System.Windows.Forms.PictureBox inv7;
         private System.Windows.Forms.PictureBox Barrier1;
-        private System.Windows.Forms.PictureBox shot1;
         private System.Windows.Forms.PictureBox Barrier2;
         private System.Windows.Forms.Button btnnewgame;
         private System.Windows.Forms.Label lblScore;

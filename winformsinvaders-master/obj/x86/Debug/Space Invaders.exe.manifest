@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Space Invaders.exe" size="761344">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Space Invaders.exe" size="771584">
       <assemblyIdentity name="Space Invaders" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>NumsXc1+sm560RbFKyV2V53vXvs=</dsig:DigestValue>
+        <dsig:DigestValue>bViM3ca9bOeaut6QOdwMsivE0J0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

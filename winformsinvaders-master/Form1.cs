@@ -133,7 +133,7 @@ namespace WindowsFormsApplication1
                 Shot1.Visible = false;
                 collision = true;
                 enemyfire = true;
-                shot1.Left = 345;
+                Defender.Left = 345;
                 gamestart = true;
                 timer1.Enabled = true;
                 btnnewgame.Enabled = false;
@@ -148,22 +148,22 @@ namespace WindowsFormsApplication1
             int n = e.KeyChar;
 
             // Left
-            if (gamestart && (n == 52 || n == 97) && shot1.Left > 25)
+            if (gamestart && (n == 52 || n == 97) && Defender.Left > 25)
             {
-                shot1.Left -= 15;
+                Defender.Left -= 15;
             }
 
             // Right
-            if (gamestart && (n == 54 || n == 100) && shot1.Left < 720)
+            if (gamestart && (n == 54 || n == 100) && Defender.Left < 720)
             {
-                shot1.Left += 15;
+                Defender.Left += 15;
             }
 
             // Shoot
-            if (gamestart && collision && n == 32 && ((shot1.Left < 80) || ((shot1.Left > 230) && (shot1.Left < 490)) || (shot1.Left > 630)))
+            if (gamestart && collision && n == 32 && ((Defender.Left < 80) || ((Defender.Left > 230) && (Defender.Left < 490)) || (Defender.Left > 630)))
             {
-                enemyshot.Left = shot1.Left + 18;
-                enemyshot.Top = shot1.Top - 25;
+                enemyshot.Left = Defender.Left + 18;
+                enemyshot.Top = Defender.Top - 25;
                 enemyshot.Visible = true;
                 collision = false;
             }
@@ -189,7 +189,7 @@ namespace WindowsFormsApplication1
                             {
                                 img.Visible = false;
                                 enemyshot.Visible = false;
-                                score += 50;
+                                score += 100;
                                 lblScore.Text = "Score: " + score;
                                 collision = true;
                                 break;
@@ -207,7 +207,7 @@ namespace WindowsFormsApplication1
                     // The player wins the game by killing all invaders)
                     if (score == 900)
                     {
-                        MessageBox.Show("Parabéns!!!\nVocê Venceu!\nCongratulations!\nYou Win!");
+                        MessageBox.Show("You Win!");
                         btnnewgame.Enabled = true;
                         gamestart = false;
                     }
@@ -242,18 +242,7 @@ namespace WindowsFormsApplication1
                     // Check invader shoot collision with player
                     PictureBox img = Shot1;
 
-                    if (Math.Abs(img.Left - Shot1.Left) < 30 && Math.Abs(img.Top - Shot1.Top) < 10)
-                    {
-                        // GameOver
-                        Shot1.Visible = false;
-                        enemyshot.Visible = false;
-                        enemyfire = true;
-                        btnnewgame.Enabled = true;
-                        gamestart = false;
-                        MessageBox.Show("\nGame Over!\nYou Lose");
-                        timer1.Enabled = false;
-                        Application.DoEvents();
-                    }
+                   
 
                     // Destroys the shoot if it reaches the lower limit
                     if (Shot1.Top > 500 || ((Shot1.Top > 430) && ((Shot1.Left > 100) && (Shot1.Left < 240))) || ((Shot1.Top > 430) && ((Shot1.Left > 500) && (Shot1.Left < 630))))
@@ -268,7 +257,7 @@ namespace WindowsFormsApplication1
 
         private void frmInvaders_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Welcome to Winforms Space Invaders\nA - Left)\nD - Roght)\nSpace - Shoot");
+            MessageBox.Show("Welcome to Winforms Space Invaders\nA - Left)\nD - Right)\nSpace - Shoot");
 
             // Invaders
             invader[1] = inv1;
