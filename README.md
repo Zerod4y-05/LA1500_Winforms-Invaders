@@ -75,3 +75,9 @@ In unserem Game wollen wir etwas nach dem Vorbild von Space Invaders programmier
   - Wurde im Code erklärt
 
 ## Reflexion
+
+Wir hatten Zeitprobleme und konnten deswegen nicht alles erreichen, was wir uns vorgenommen haben. Zum Beispiel fehlte uns die Zeit die verschiedenen Modis zu programmieren.
+Das Zeitproblem denken wir, kommt wahrscheinlch daher dass wir uns leicht übernommen haben und nicht richtig wussten wie was zu programmieren. Auch mussten wir deswegen neue Informationen suchen, welche gut waren und der geschriebene Code verstäntlich erklärt wurde.
+Das nächstemal sollten wir vieleicht am Anfang nachdem wir die Problemme oder möglichen Problem, welche im Verlauf entstehen könnten, schon raussuchen und zusammen alle Informationen suchen. Somit würden wir alle Problemme schon im vorraus eliminieren und wir hätten dazu auch Zeit gespart.
+
+
