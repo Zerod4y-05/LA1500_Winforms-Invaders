@@ -11,7 +11,7 @@ Hier wird erklärt, wie Sie eine Figur auf Winforms bewegen könnt, mit Tasten o
 
 ## Erklärung
 
-WinForms ist ein Programm in Visual Studio, in der man mit grafischen Objekten programmieren kann, die dann entweder sich bewegen oder ein Commad ausführen.
+`Windows Forms` ist neben der 'normalen' Konsole ein Programm in Visual Studio, der dem Benutzer ermöglicht, in verschiedenen Feldern Features einzufügen. Mit `Windows Forms` kann man mit den Feautures wie in der Konsole den Benutzer für eine Eingabe auffordern, jedoch kann man mit den Labels und anderen Sachen die Gestaltung schöner und übersichtlicher als auf der Konsole machen. Es ermöglicht auch die Erstellung grafischer Benutzeroberflächen für Windows. In unserer Gruppenarbeit haben wir uns für `WinForms` entschieden, da unser Spiel SpaceInvadors mit diesem Programm einfach zu programmieren ist.
 
 ## Code
 
