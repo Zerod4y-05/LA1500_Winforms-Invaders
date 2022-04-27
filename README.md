@@ -3,6 +3,7 @@
 # Bewegungen in WinForms mit oder ohne gedrückte Tasten
 
 ## Einleitung
+Hier wird erklärt, wie Sie eine Figur auf Winforms bewegen könnt, mit Tasten oder eine grössere Gruppe automatisch.
 
 ## Ziele
 1. Dem Leser erklären, wie ein KeyPress Event in WinForms ausgeführt wird.
