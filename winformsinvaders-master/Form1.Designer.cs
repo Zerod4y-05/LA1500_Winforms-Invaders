@@ -31,8 +31,9 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInvaders));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Shot1 = new System.Windows.Forms.PictureBox();
+            this.Defender = new System.Windows.Forms.PictureBox();
             this.enemyshot = new System.Windows.Forms.PictureBox();
+            this.Shot1 = new System.Windows.Forms.PictureBox();
             this.Barrier2 = new System.Windows.Forms.PictureBox();
             this.Barrier1 = new System.Windows.Forms.PictureBox();
             this.inv18 = new System.Windows.Forms.PictureBox();
@@ -57,10 +58,10 @@
             this.btnnewgame = new System.Windows.Forms.Button();
             this.lblScore = new System.Windows.Forms.Label();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.Defender = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Shot1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Defender)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyshot)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Shot1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Barrier2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Barrier1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inv18)).BeginInit();
@@ -81,7 +82,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.inv7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inv3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inv1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Defender)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -115,16 +115,15 @@
             this.panel1.Size = new System.Drawing.Size(774, 540);
             this.panel1.TabIndex = 0;
             // 
-            // Shot1
+            // Defender
             // 
-            this.Shot1.Image = ((System.Drawing.Image)(resources.GetObject("Shot1.Image")));
-            this.Shot1.Location = new System.Drawing.Point(724, 459);
-            this.Shot1.Name = "Shot1";
-            this.Shot1.Size = new System.Drawing.Size(10, 34);
-            this.Shot1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Shot1.TabIndex = 3;
-            this.Shot1.TabStop = false;
-            this.Shot1.Visible = false;
+            this.Defender.Image = ((System.Drawing.Image)(resources.GetObject("Defender.Image")));
+            this.Defender.ImageLocation = "";
+            this.Defender.Location = new System.Drawing.Point(341, 473);
+            this.Defender.Name = "Defender";
+            this.Defender.Size = new System.Drawing.Size(40, 46);
+            this.Defender.TabIndex = 4;
+            this.Defender.TabStop = false;
             // 
             // enemyshot
             // 
@@ -137,8 +136,20 @@
             this.enemyshot.TabStop = false;
             this.enemyshot.Visible = false;
             // 
+            // Shot1
+            // 
+            this.Shot1.Image = ((System.Drawing.Image)(resources.GetObject("Shot1.Image")));
+            this.Shot1.Location = new System.Drawing.Point(724, 459);
+            this.Shot1.Name = "Shot1";
+            this.Shot1.Size = new System.Drawing.Size(10, 34);
+            this.Shot1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Shot1.TabIndex = 3;
+            this.Shot1.TabStop = false;
+            this.Shot1.Visible = false;
+            // 
             // Barrier2
             // 
+            this.Barrier2.Image = ((System.Drawing.Image)(resources.GetObject("Barrier2.Image")));
             this.Barrier2.Location = new System.Drawing.Point(510, 458);
             this.Barrier2.Name = "Barrier2";
             this.Barrier2.Size = new System.Drawing.Size(134, 35);
@@ -148,6 +159,7 @@
             // 
             // Barrier1
             // 
+            this.Barrier1.Image = ((System.Drawing.Image)(resources.GetObject("Barrier1.Image")));
             this.Barrier1.Location = new System.Drawing.Point(111, 458);
             this.Barrier1.Name = "Barrier1";
             this.Barrier1.Size = new System.Drawing.Size(134, 35);
@@ -176,6 +188,7 @@
             // 
             // inv12
             // 
+            this.inv12.Image = ((System.Drawing.Image)(resources.GetObject("inv12.Image")));
             this.inv12.Location = new System.Drawing.Point(420, 73);
             this.inv12.Name = "inv12";
             this.inv12.Size = new System.Drawing.Size(40, 38);
@@ -202,6 +215,7 @@
             // 
             // inv6
             // 
+            this.inv6.Image = ((System.Drawing.Image)(resources.GetObject("inv6.Image")));
             this.inv6.Location = new System.Drawing.Point(404, 16);
             this.inv6.Name = "inv6";
             this.inv6.Size = new System.Drawing.Size(40, 38);
@@ -229,6 +243,7 @@
             // 
             // inv4
             // 
+            this.inv4.Image = ((System.Drawing.Image)(resources.GetObject("inv4.Image")));
             this.inv4.Location = new System.Drawing.Point(247, 16);
             this.inv4.Name = "inv4";
             this.inv4.Size = new System.Drawing.Size(40, 38);
@@ -255,6 +270,7 @@
             // 
             // inv2
             // 
+            this.inv2.Image = ((System.Drawing.Image)(resources.GetObject("inv2.Image")));
             this.inv2.Location = new System.Drawing.Point(93, 16);
             this.inv2.Name = "inv2";
             this.inv2.Size = new System.Drawing.Size(40, 38);
@@ -282,6 +298,7 @@
             // 
             // inv5
             // 
+            this.inv5.Image = ((System.Drawing.Image)(resources.GetObject("inv5.Image")));
             this.inv5.Location = new System.Drawing.Point(325, 16);
             this.inv5.Name = "inv5";
             this.inv5.Size = new System.Drawing.Size(40, 38);
@@ -299,6 +316,7 @@
             // 
             // inv3
             // 
+            this.inv3.Image = ((System.Drawing.Image)(resources.GetObject("inv3.Image")));
             this.inv3.Location = new System.Drawing.Point(171, 16);
             this.inv3.Name = "inv3";
             this.inv3.Size = new System.Drawing.Size(40, 38);
@@ -307,6 +325,7 @@
             // 
             // inv1
             // 
+            this.inv1.Image = ((System.Drawing.Image)(resources.GetObject("inv1.Image")));
             this.inv1.Location = new System.Drawing.Point(12, 16);
             this.inv1.Name = "inv1";
             this.inv1.Size = new System.Drawing.Size(40, 38);
@@ -343,15 +362,6 @@
             this.timer2.Interval = 10;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
-            // Defender
-            // 
-            this.Defender.ImageLocation = "";
-            this.Defender.Location = new System.Drawing.Point(341, 473);
-            this.Defender.Name = "Defender";
-            this.Defender.Size = new System.Drawing.Size(40, 46);
-            this.Defender.TabIndex = 4;
-            this.Defender.TabStop = false;
-            // 
             // frmInvaders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -368,8 +378,9 @@
             this.Load += new System.EventHandler(this.frmInvaders_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.frmInvaders_KeyPress);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Shot1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Defender)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.enemyshot)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Shot1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Barrier2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Barrier1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inv18)).EndInit();
@@ -390,7 +401,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.inv7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inv3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inv1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Defender)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
