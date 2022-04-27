@@ -25,7 +25,7 @@ In unserem Game wollen wir etwas nach dem Vorbild von Space Invaders programmier
 
 ```csharp
   //Move Invaders Left or Right
-                for (int i = 1; i <= numinvaders; i++)
+                for (int i = 1; i <= numinvaders; i++) //Die Variable, damit das Bild sich bewegt
                 {
                     PictureBox img = invader[i];
                     img.Left += movement;
@@ -47,7 +47,7 @@ In unserem Game wollen wir etwas nach dem Vorbild von Space Invaders programmier
 // Player Input Routine
         public void frmInvaders_KeyPress(object sender, KeyPressEventArgs e)
         {
-            int n = e.KeyChar;
+            int n = e.KeyChar; //Tastatur
 
             // Left
             if (gamestart && (n == 52  n == 97) && Defender.Left > 25)
