@@ -25,7 +25,7 @@ ur gae :D
 
 ## Video
 
-<a href="https://user-images.githubusercontent.com/89132005/134320801-af8f77b1-580b-458b-b3e4-a847762143d3.mp4" title="Video Spiel"><img src="{image-url}" alt="Video Spiel" /></a>
+<a href="https://youtu.be/oDYmfFeIIhA" title="Video Spiel"><img src="{image-url}" alt="Video Spiel" /></a>
 
 
 ## Verifikation
