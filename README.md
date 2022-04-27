@@ -3,7 +3,7 @@
 # Bewegungen in WinForms mit oder ohne gedrückte Tasten
 
 ## Einleitung
-Hier wird erklärt, wie Sie eine Figur auf Winforms bewegen könnt, mit Tasten oder eine grössere Gruppe automatisch.
+Hier wird erklärt, wie Sie eine Figur auf Winforms mit Tasten bewegen können oder eine grössere Gruppe automatisch.
 
 __Was ist Windows Forms?__
 
@@ -24,6 +24,8 @@ ur gae :D
 ## Code
 
 ## Video
+
+[![Video des Beispiels](https://youtu.be/oDYmfFeIIhA/0.jpg)](https://youtu.be/oDYmfFeIIhA "Video - Klicke um es anzuschauen!")
 
 ## Verifikation
 
