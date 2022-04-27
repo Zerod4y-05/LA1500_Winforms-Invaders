@@ -19,7 +19,7 @@ Space Invaders ist ein japanisches Videospiel, in dem man mit einem Raumschiff A
 
 ## Erklärung
 
-Ur mom
+In unserem Game wollen wir etwas nach dem Vorbild von Space Invaders programmieren. Wir hätten uns gedacht, dass wir ein Upgrade System machen. Zum Beispiel kann man sich mit Münzen rechts und links Towers kaufen. Die Coins erhält man, wenn man die Gegner abschiesst. Je besser das Upgrade, je mehr Münzen kosten sie. Auch wollen wir verschiedene Modis einfügen, wie beim Game Pineapple-Apple-Pen. Man kann die Gegner an einem Punkt lassen, gerade auf einen zukommen lassen, oder im Zickzack fliegen lassen.
 
 ## Code
 
