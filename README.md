@@ -64,7 +64,7 @@ Ur mom
 
 ## Video
 
-<a href="https://youtu.be/oDYmfFeIIhA" title="Video Spiel"><img src="{image-url}" alt="Video Spiel" /></a>
+<a href="https://youtu.be/oDYmfFeIIhA" title="Video Spiel"><alt="Video Spiel"/></a>
 
 
 ## Verifikation
