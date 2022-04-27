@@ -11,7 +11,7 @@ __Was ist Windows Forms?__
 
 __Was ist Space Invaders?__
 
-Space Invaders ist ein japanisches Videospiel, in dem man mit einem Raumschiff Aliens abschiesst. Der Spieler steuert das Raumschiff mit den rechten und linken Pfeiltasten und schiesst Geschosse mit der Leertaste. Jedes Level beginnt mit mehreren Reihen regelmäßig angeordneter Aliens, die sich ständig horizontal und dabei nach und nach abwärts bewegen. Der Spieler selbst hat einen unbegrenzten Munitionsvorrat, kann aber erst dann ein neues Geschoss abfeuern, wenn das vorige vom Bildschirm verschwunden ist. Wenn es einem der Aliens gelingt, den unteren Bildschirmrand zu erreichen und neben der Kanone zu landen, verliert der Spieler eines seiner Leben.
+Space Invaders ist ein japanisches Videospiel, in dem man mit einem Raumschiff Aliens abschiesst. Der Spieler steuert das Raumschiff mit den rechten und linken Pfeiltasten und schiesst Geschosse mit der Leertaste. Jedes Level beginnt mit mehreren Reihen regelmässig angeordneter Aliens, die sich ständig horizontal und dabei nach und nach abwärts bewegen. Der Spieler selbst hat einen unbegrenzten Munitionsvorrat, kann aber erst dann ein neues Geschoss abfeuern, wenn das vorige vom Bildschirm verschwunden ist. Wenn es einem der Aliens gelingt, den unteren Bildschirmrand zu erreichen und neben der Kanone zu landen, verliert der Spieler eines seiner Leben.
 
 ## Unsere Ziele
 1. Dem Leser erklären, wie ein KeyPress Event in WinForms ausgeführt wird.
