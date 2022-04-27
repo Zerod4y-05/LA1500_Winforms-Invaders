@@ -5,11 +5,13 @@
 ## Einleitung
 Hier wird erklärt, wie Sie eine Figur auf Winforms bewegen könnt, mit Tasten oder eine grössere Gruppe automatisch.
 
-## Ziele
+## Unsere Ziele
 1. Dem Leser erklären, wie ein KeyPress Event in WinForms ausgeführt wird.
 2. Dem Leser erklären, wie man die Bewegung der Gegner in WinForms codiert und ausführt. 
 
 ## Erklärung
+
+WinForms ist ein Programm in Visual Studio, in der man mit grafischen Objekten programmieren kann, die dann entweder sich bewegen oder ein Commad ausführen.
 
 ## Code
 
