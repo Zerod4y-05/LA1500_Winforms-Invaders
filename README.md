@@ -64,7 +64,7 @@ In unserem Game wollen wir etwas nach dem Vorbild von Space Invaders programmier
 
 ## Video
 
-<a href="https://youtu.be/oDYmfFeIIhA" title="Video Spiel" alt="Video Spiel" /></a>
+<a href="https://youtu.be/oDYmfFeIIhA" title="Video Spiel" alt="Video Spiel"></a>
 
 
 ## Verifikation
