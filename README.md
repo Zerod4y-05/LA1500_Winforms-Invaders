@@ -40,6 +40,8 @@ Space Invaders ist ein japanisches Videospiel, in dem man mit einem Raumschiff A
                         img.Top += movement2;
                     }
                     down++;
+                }
+                
 // Player Input Routine
         public void frmInvaders_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -56,11 +58,11 @@ Space Invaders ist ein japanisches Videospiel, in dem man mit einem Raumschiff A
             {
                 Defender.Left += 15;
             }
+        }
 ```
 
 ## Video
 
-<a href="https://youtu.be/oDYmfFeIIhA" title="Video Spiel"></a>
 [Video Spiel](https://youtu.be/oDYmfFeIIhA "Video Spiel")
 
 
@@ -74,7 +76,5 @@ Space Invaders ist ein japanisches Videospiel, in dem man mit einem Raumschiff A
 ## Reflexion
 
 Wir hatten Zeitprobleme und konnten deswegen nicht alles erreichen, was wir uns vorgenommen haben. Zum Beispiel fehlte uns die Zeit die verschiedenen Modis zu programmieren.
-Das Zeitproblem denken wir, kommt wahrscheinlch daher dass wir uns leicht übernommen haben und nicht richtig wussten wie was zu programmieren. Auch mussten wir deswegen neue Informationen suchen, welche gut waren und der geschriebene Code verstäntlich erklärt wurde.
-Das nächstemal sollten wir vieleicht am Anfang nachdem wir die Problemme oder möglichen Problem, welche im Verlauf entstehen könnten, schon raussuchen und zusammen alle Informationen suchen. Somit würden wir alle Problemme schon im vorraus eliminieren und wir hätten dazu auch Zeit gespart.
-
-
+Das Zeitproblem, denken wir, kommt wahrscheinlch daher, dass wir uns leicht übernommen haben und nicht richtig wussten, wie was zu programmieren. Auch mussten wir deswegen neue Informationen suchen, welche gut waren und der geschriebene Code verstäntlich erklärt wurde.
+Das nächste Mal sollten wir vieleicht am Anfang, nachdem wir die Problemme oder möglichen Probleme, welche im Verlauf entstehen könnten, schon raussuchen und zusammen alle Informationen suchen. Somit würden wir alle Problemme schon im Vorraus eliminieren und wir hätten dazu auch Zeit gespart.
