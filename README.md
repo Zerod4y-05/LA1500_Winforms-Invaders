@@ -2,12 +2,11 @@
 
 # Bewegungen in WinForms mit oder ohne gedrückte Tasten
 
-## Einleitung
-Hier wird erklärt, wie Sie eine Figur auf Winforms mit Tasten bewegen können oder eine grössere Gruppe automatisch.
-
 ## Unsere Ziele
 1. Dem Leser erklären, wie ein KeyPress Event in WinForms ausgeführt wird.
 2. Dem Leser erklären, wie man die Bewegung der Gegner in WinForms codiert und ausführt. 
+
+## Einleitung
 
 __Was ist Windows Forms?__
 
@@ -45,7 +44,7 @@ Space Invaders ist ein japanisches Videospiel, in dem man mit einem Raumschiff A
 // Player Input Routine
         public void frmInvaders_KeyPress(object sender, KeyPressEventArgs e)
         {
-            int n = e.KeyChar; //Tastatur
+            int n = e.KeyChar; // Tastatur
 
             // Left
             if (gamestart && (n == 52  n == 97) && Defender.Left > 25)
@@ -64,7 +63,6 @@ Space Invaders ist ein japanisches Videospiel, in dem man mit einem Raumschiff A
 ## Video
 
 [Video Spiel](https://youtu.be/oDYmfFeIIhA "Video Spiel")
-
 
 ## Verifikation
 
