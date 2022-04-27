@@ -69,4 +69,8 @@ In unserem Game wollen wir etwas nach dem Vorbild von Space Invaders programmier
 
 ## Verifikation
 
+1. Dem Leser erklären, wie ein KeyPress Event in WinForms ausgeführt wird.
+  - Wurde 
+3. Dem Leser erklären, wie man die Bewegung der Gegner in WinForms codiert und ausführt. 
+
 ## Reflexion
