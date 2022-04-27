@@ -20,8 +20,8 @@ Space Invaders ist ein japanisches Videospiel, in dem man mit einem Raumschiff A
 ## Code
 
 ```csharp
-  //Move Invaders Left or Right
-                for (int i = 1; i <= numinvaders; i++) //Die Variable, damit das Bild sich bewegt
+  // Move Invaders Left or Right
+                for (int i = 1; i <= numinvaders; i++) // Die Variable, damit das Bild sich bewegt
                 {
                     PictureBox img = invader[i];
                     img.Left += movement;
@@ -69,12 +69,12 @@ Space Invaders ist ein japanisches Videospiel, in dem man mit einem Raumschiff A
 ## Verifikation
 
 1. Dem Leser erklären, wie ein KeyPress Event in WinForms ausgeführt wird.
-  - Wurde im Code erklärt
+  - Wurde im Code erklärt.
 3. Dem Leser erklären, wie man die Bewegung der Gegner in WinForms codiert und ausführt. 
-  - Wurde im Code erklärt
+  - Wurde im Code erklärt.
 
 ## Reflexion
 
-Wir hatten Zeitprobleme und konnten deswegen nicht alles erreichen, was wir uns vorgenommen haben. Zum Beispiel fehlte uns die Zeit die verschiedenen Modis zu programmieren.
-Das Zeitproblem, denken wir, kommt wahrscheinlch daher, dass wir uns leicht übernommen haben und nicht richtig wussten, wie was zu programmieren. Auch mussten wir deswegen neue Informationen suchen, welche gut waren und der geschriebene Code verstäntlich erklärt wurde.
-Das nächste Mal sollten wir vieleicht am Anfang, nachdem wir die Problemme oder möglichen Probleme, welche im Verlauf entstehen könnten, schon raussuchen und zusammen alle Informationen suchen. Somit würden wir alle Problemme schon im Vorraus eliminieren und wir hätten dazu auch Zeit gespart.
+Wir hatten Zeitprobleme und konnten deswegen nicht alles erreichen, was wir uns vorgenommen haben. Zum Beispiel fehlte uns die Zeit, die verschiedenen Modis zu programmieren.
+Das Zeitproblem, denken wir, kommt wahrscheinlch daher, dass wir uns leicht übernommen haben und nicht richtig wussten, wie was programmieren. Auch mussten wir deswegen neue Informationen suchen, welche gut waren und der geschriebene Code verstäntlich erklärt wurde.
+Das nächste Mal sollten wir vielleicht am Anfang die Problemme oder möglichen Probleme, welche im Verlauf entstehen könnten, schon raussuchen und zusammen alle Informationen suchen. Somit würden wir alle Probleme schon im Vorraus eliminieren und wir hätten dazu auch Zeit gespart.
