@@ -25,7 +25,7 @@ ur gae :D
 
 ## Video
 
-[![Video des Beispiels](https://youtu.be/oDYmfFeIIhA/0.jpg)](https://youtu.be/oDYmfFeIIhA "Video - Klicke um es anzuschauen!")
+[![Video des Beispiels](https://youtu.be/oDYmfFeIIhA.jpg)](https://youtu.be/oDYmfFeIIhA "Video - Klicke um es anzuschauen!")
 
 ## Verifikation
 
