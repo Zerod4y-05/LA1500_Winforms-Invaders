@@ -23,6 +23,45 @@ ur gae :D
 
 ## Code
 
+```winforms
+  //Move Invaders Left or Right
+                for (int i = 1; i <= numinvaders; i++)
+                {
+                    PictureBox img = invader[i];
+                    img.Left += movement;
+                }
+
+                cycle++;
+                if (cycle == 62)
+                {
+                    movement *= -1;
+                    cycle = 0;
+
+                    // Move invaders a little down
+                    for (int i = 1; i <= numinvaders; i++)
+                    {
+                        PictureBox img = invader[i];
+                        img.Top += movement2;
+                    }
+                    down++;
+// Player Input Routine
+        public void frmInvaders_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            int n = e.KeyChar;
+
+            // Left
+            if (gamestart && (n == 52  n == 97) && Defender.Left > 25)
+            {
+                Defender.Left -= 15;
+            }
+
+            // Right
+            if (gamestart && (n == 54  n == 100) && Defender.Left < 720)
+            {
+                Defender.Left += 15;
+            }
+```
+
 ## Video
 
 <a href="https://youtu.be/oDYmfFeIIhA" title="Video Spiel"><img src="{image-url}" alt="Video Spiel" /></a>
