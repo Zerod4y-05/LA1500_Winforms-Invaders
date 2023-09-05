@@ -294,5 +294,10 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void Barrier2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

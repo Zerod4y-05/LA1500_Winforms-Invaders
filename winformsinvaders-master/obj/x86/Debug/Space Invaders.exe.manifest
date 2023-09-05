@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Space Invaders.exe" size="771584">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Space Invaders.exe" size="770560">
       <assemblyIdentity name="Space Invaders" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>bViM3ca9bOeaut6QOdwMsivE0J0=</dsig:DigestValue>
+        <dsig:DigestValue>P9oW3NVI8+IAiTtrYWA9oqk6eFs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -63,13 +63,13 @@
       <dsig:DigestValue>GdVvXZ2rvYD/Ch81IMJi+e7fXIE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Space Invaders.exe.config" size="156">
+  <file name="Space Invaders.exe.config" size="159">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>gAftHgJfZ11tP1tfk9QhPLIvO0k=</dsig:DigestValue>
+      <dsig:DigestValue>1MarUy3RuVvHLdw5ozZo3o7j39I=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
